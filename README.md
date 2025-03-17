@@ -84,7 +84,9 @@ inventory-service/
 │   ├── main/
 
 │   │   ├── java/
+
 │   │   │   └── com/restaurante/inventario/
+
 │   │   │       ├── application/           
 │   │   │       │   ├── controllers/      
 │   │   │       │   └── services/          
