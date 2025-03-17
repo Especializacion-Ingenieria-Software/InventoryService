@@ -82,19 +82,18 @@ inventory-service/
 │   ├── main/
 │   │   ├── java/
 │   │   │   └── com/restaurante/inventario/
-│   │   │       ├── application/           # Application logic (controllers, services)
-│   │   │       │   ├── controllers/       # REST controllers (API Endpoints)
-│   │   │       │   └── services/          # Application services (business orchestration)
-│   │   │       ├── domain/                # Domain logic (aggregates, entities, services)
-│   │   │       │   ├── entities/          # Domain entities (e.g., Ingredient, Recipe)
-│   │   │       │   ├── repositories/      # Data access repositories
-│   │   │       │   ├── services/          # Domain services (e.g., AvailabilityValidationService)
-│   │   │       │   └── valueobjects/      # Value objects (e.g., Quantity, UnitOfMeasure)
-│   │   │       ├── infrastructure/        # Infrastructure logic (persistence, messaging)
-│   │   │       │   ├── persistence/       # Repository implementations (DB access)
-│   │   │       │   └── messaging/         # Communication with other services (Kafka, RabbitMQ)
-│   │   │       └── InventoryApplication.java   # Microservice entry point (main)
-│   │   └── resources/                      # Configuration files (e.g., application.properties)
-│   └── test/                              # Unit and integration tests
-└── pom.xml                                 # Project configuration file (if using Maven)
-
+│   │   │       ├── application/           
+│   │   │       │   ├── controllers/      
+│   │   │       │   └── services/          
+│   │   │       ├── domain/                
+│   │   │       │   ├── entities/         
+│   │   │       │   ├── repositories/      
+│   │   │       │   ├── services/          
+│   │   │       │   └── valueobjects/    
+│   │   │       ├── infrastructure/        
+│   │   │       │   ├── persistence/       
+│   │   │       │   └── messaging/        
+│   │   │       └── InventoryApplication.java   
+│   │   └── resources/                     
+│   └── test/                              
+└── pom.xml                                 
