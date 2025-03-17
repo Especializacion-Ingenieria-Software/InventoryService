@@ -87,18 +87,32 @@ inventory-service/
 
 │   │   │   └── com/restaurante/inventario/
 
-│   │   │       ├── application/           
-│   │   │       │   ├── controllers/      
-│   │   │       │   └── services/          
-│   │   │       ├── domain/                
-│   │   │       │   ├── entities/         
-│   │   │       │   ├── repositories/      
-│   │   │       │   ├── services/          
-│   │   │       │   └── valueobjects/    
-│   │   │       ├── infrastructure/        
-│   │   │       │   ├── persistence/       
-│   │   │       │   └── messaging/        
+│   │   │       ├── application/     
+
+│   │   │       │   ├── controllers/ 
+
+│   │   │       │   └── services/   
+
+│   │   │       ├── domain/      
+
+│   │   │       │   ├── entities/  
+
+│   │   │       │   ├── repositories/   
+
+│   │   │       │   ├── services/    
+
+│   │   │       │   └── valueobjects/  
+
+│   │   │       ├── infrastructure/ 
+
+│   │   │       │   ├── persistence/  
+
+│   │   │       │   └── messaging/  
+
 │   │   │       └── InventoryApplication.java   
-│   │   └── resources/                     
-│   └── test/                              
+
+│   │   └── resources/      
+
+│   └── test/     
+
 └── pom.xml                                 
