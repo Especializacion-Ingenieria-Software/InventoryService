@@ -77,42 +77,26 @@ The service follows **Domain-Driven Design (DDD)** principles, with clear bounda
 
 
 ### Folder Structure
+
+```bash
 inventory-service/
-
 ├── src/
-
 │   ├── main/
-
 │   │   ├── java/
-
 │   │   │   └── com/restaurante/inventario/
-
 │   │   │       ├── application/     
-
 │   │   │       │   ├── controllers/ 
-
 │   │   │       │   └── services/   
-
 │   │   │       ├── domain/      
-
 │   │   │       │   ├── entities/  
-
 │   │   │       │   ├── repositories/   
-
 │   │   │       │   ├── services/    
-
 │   │   │       │   └── valueobjects/  
-
 │   │   │       ├── infrastructure/ 
-
 │   │   │       │   ├── persistence/  
-
 │   │   │       │   └── messaging/  
-
 │   │   │       └── InventoryApplication.java   
-
 │   │   └── resources/      
-
 │   └── test/     
-
-└── pom.xml                                 
+└── pom.xml
+```                               
