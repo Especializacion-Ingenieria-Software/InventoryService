@@ -78,8 +78,11 @@ The service follows **Domain-Driven Design (DDD)** principles, with clear bounda
 
 ### Folder Structure
 inventory-service/
+
 ├── src/
+
 │   ├── main/
+
 │   │   ├── java/
 │   │   │   └── com/restaurante/inventario/
 │   │   │       ├── application/           
